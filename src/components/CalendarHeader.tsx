@@ -7,7 +7,7 @@ type CalendarHeaderProps = {
   currentMonth: Date;
   setCurrentMonth: Dispatch<SetStateAction<Date>>;
 };
-
+//이전, 다음 달로 넘기는 문자 엔티티
 export const CalendarHeader: React.FC<CalendarHeaderProps> = ({ currentMonth, setCurrentMonth }) => (
   <div className="wdrp-calendar-header flex justify-between items-center mb-4 mt-10">
     <button onClick={() => setCurrentMonth(subMonths(currentMonth, 1))} className="wdrp-month-nav-button p-1">&lt;</button>
