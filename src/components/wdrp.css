@@ -1,7 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-/*css파일 따로 만들었는데 하다보니까 테일윈드의 장점이 사라진 것 같아서 사용안했어요*/
+/*파일 따로 만들었는데 하다보니까 테일윈드의 장점이 사라진 것 같아서 사용안했어요*/
 /* WeatherDateRangePicker specific styles
 @layer components {
   .wdrp-container {

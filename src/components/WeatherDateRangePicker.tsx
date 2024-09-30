@@ -6,6 +6,7 @@ import { DateRange, WeatherData, City, cities } from './types';
 import { CitySelector } from './CitySelector';
 import { CalendarHeader } from './CalendarHeader';
 import { Calendar } from './Calendar';
+import {WEATHER_API_KEY} from '../api/api';
 //화면에서 나타내고 싶을 때 <WeatherDateRangePicker />로 불러오면 됨
 
 const WeatherDateRangePicker: React.FC = () => {
@@ -18,7 +19,7 @@ const WeatherDateRangePicker: React.FC = () => {
   const [weatherData, setWeatherData] = useState<WeatherData[]>([]);
   const [selectedCity, setSelectedCity] = useState<City>(cities[0]);
   
-  const API_KEY = '5297d586323e116db7bb37a6b10ebeaa';
+  const API_KEY = WEATHER_API_KEY;
 
   useEffect(() => {
     const fetchWeatherData = async () => {
