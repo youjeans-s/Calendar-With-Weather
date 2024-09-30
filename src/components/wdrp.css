@@ -1,0 +1,151 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/*css파일 따로 만들었는데 하다보니까 테일윈드의 장점이 사라진 것 같아서 사용안했어요*/
+/* WeatherDateRangePicker specific styles
+@layer components {
+  .wdrp-container {
+    @apply flex flex-col space-y-4;
+  }
+
+  .wdrp-input-container {
+    @apply flex space-x-4;
+  }
+
+  .wdrp-input {
+    @apply px-3 py-2 border rounded;
+  }
+
+  .wdrp-calendar-button {
+    @apply px-3 py-2 border rounded;
+  }
+
+  .wdrp-calendar-icon {
+    @apply h-5 w-5;
+  }
+
+  .wdrp-modal {
+    @apply fixed inset-0 flex items-center justify-center z-50 bg-black bg-opacity-50;
+  }
+
+  .wdrp-modal-content {
+    @apply bg-white rounded-lg p-4 shadow-lg relative;
+  }
+
+  .wdrp-close-button {
+    @apply absolute top-2 right-2 p-1 rounded-full hover:bg-gray-200;
+  }
+
+  .wdrp-close-icon {
+    @apply h-5 w-5;
+  }
+
+  .wdrp-confirm-container {
+    @apply flex justify-end mt-10;
+  }
+
+  .wdrp-confirm-button {
+    @apply px-4 py-2 bg-gray-900 text-white rounded;
+  }
+
+  .wdrp-city-selector {
+    @apply flex justify-center space-x-4 mb-4;
+  }
+
+  .wdrp-city-button {
+    @apply px-4 py-2 rounded;
+  }
+
+  .wdrp-city-button-selected {
+    @apply bg-blue-500 text-white;
+  }
+
+  .wdrp-city-button-unselected {
+    @apply bg-gray-200 text-gray-800;
+  }
+
+  .wdrp-calendar-header {
+    @apply flex justify-between items-center mb-4 mt-10;
+  }
+
+  .wdrp-month-nav-button {
+    @apply p-1;
+  }
+
+  .wdrp-month-title {
+    @apply text-lg font-bold;
+  }
+
+  .wdrp-calendar-day {
+    @apply text-center p-1 cursor-pointer relative h-16 flex flex-col justify-between;
+  }
+
+  .wdrp-today {
+    @apply font-bold;
+  }
+
+  .wdrp-selected {
+    @apply bg-blue-300;
+  }
+
+  .wdrp-in-range {
+    @apply bg-blue-100;
+  }
+
+  .wdrp-saturday {
+    @apply text-blue-500;
+  }
+
+  .wdrp-sunday {
+    @apply text-red-500;
+  }
+
+  .wdrp-past-date {
+    @apply text-gray-400;
+  }
+
+  .wdrp-past-date.wdrp-sunday,
+  .wdrp-past-date.wdrp-saturday {
+    @apply text-gray-400;
+  }
+
+  .wdrp-day-number {
+    @apply text-sm;
+  }
+
+  .wdrp-weather-info {
+    @apply absolute bottom-1 flex flex-col items-center justify-center;
+  }
+
+  .wdrp-weather-icon {
+    @apply w-6 h-6;
+  }
+
+  .wdrp-temperature {
+    @apply text-xs ml-1;
+  }
+
+  .wdrp-calendar {
+    @apply flex space-x-4;
+  }
+
+  .wdrp-month {
+    @apply flex-1;
+  }
+
+  .wdrp-weekdays {
+    @apply grid grid-cols-7 gap-1;
+  }
+
+  .wdrp-weekday {
+    @apply text-center font-bold;
+  }
+
+  .wdrp-days {
+    @apply grid grid-cols-7 gap-1;
+  }
+
+  .wdrp-empty-day {
+    @apply text-center p-1;
+  }
+} */
